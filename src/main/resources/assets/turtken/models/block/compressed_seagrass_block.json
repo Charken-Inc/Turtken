@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "turtken:block/c_s_b",
+    "up": "turtken:block/c_s_b",
+    "north": "turtken:block/c_s_b",
+    "east": "turtken:block/c_s_b",
+    "south": "turtken:block/c_s_b",
+    "west": "turtken:block/c_s_b",
+    "particle": "turtken:block/c_s_b"
+  },
+  "render_type": "solid"
+}

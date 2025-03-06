@@ -1,0 +1,220 @@
+{
+  "mod_elements": [
+    {
+      "name": "Turtken",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/turtken/client/renderer/TurtkenRenderer.java",
+          "src/main/resources/data/turtken/neoforge/biome_modifier/turtken_biome_modifier.json",
+          "src/main/java/net/mcreator/turtken/entity/TurtkenEntity.java",
+          "src/main/resources/assets/turtken/models/item/turtken_spawn_egg.json"
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "TurtkenShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtken_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/turtken/item/TurtkenShellItem.java",
+          "src/main/resources/assets/turtken/models/item/turtken_shell.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Turtkain",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtkain",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TurtkenSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtken_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turtken/models/item/turtken_sword.json",
+          "src/main/java/net/mcreator/turtken/item/TurtkenSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TurtkenShellChunk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtken_shell_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turtken/models/item/turtken_shell_chunk.json",
+          "src/main/java/net/mcreator/turtken/item/TurtkenShellChunkItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TurtkenShellrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtken_shellrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turtken/recipe/turtken_shell.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TurtkenSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtken_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turtken/recipe/turtken_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CompressedSeaGrass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_sea_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/turtken/models/item/compressed_sea_grass.json",
+          "src/main/java/net/mcreator/turtken/item/CompressedSeaGrassItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CompressedSeagrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_seagrass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/turtken/block/CompressedSeagrassBlockBlock.java",
+          "src/main/resources/data/turtken/loot_table/blocks/compressed_seagrass_block.json",
+          "src/main/resources/assets/turtken/models/item/compressed_seagrass_block.json",
+          "src/main/resources/assets/turtken/models/block/compressed_seagrass_block.json",
+          "src/main/resources/assets/turtken/blockstates/compressed_seagrass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CompressedSeagrassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_seagrass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turtken/recipe/compressed_seagrass.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CompressedSeagrassBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_seagrass_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/turtken/recipe/compressed_seagrass_block.json"
+        ]
+      },
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ENTITIES:minecraft:aquatic": [
+      "~CUSTOM:Turtken"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CompressedSeagrassBlock"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:TurtkenShell"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TurtkenSword"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.turtken.turtken_shell_chunk": "Turtken Shell Chunk",
+      "item.turtken.turtken_spawn_egg": "Turtken Spawn Egg",
+      "block.turtken.compressed_seagrass_block": "Compressed Seagrass Block",
+      "item_group.turtken.turtkain": "Turtkain",
+      "entity.turtken.turtken": "Turtken",
+      "item.turtken.turtken_sword": "Turtken Sword",
+      "item.turtken.compressed_sea_grass": "Compressed Sea Grass",
+      "item.turtken.turtken_shell": "Turtken Shell"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Enities",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "turtken",
+    "modName": "Turtken",
+    "version": "1.0.0",
+    "author": "jacob, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.turtken"
+  },
+  "mcreatorVersion": 202400452410
+}

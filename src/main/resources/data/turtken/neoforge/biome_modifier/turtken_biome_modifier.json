@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "lukewarm_ocean",
+    "warm_ocean",
+    "ocean",
+    "river"
+  ],
+  "spawners": {
+    "type": "turtken:turtken",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

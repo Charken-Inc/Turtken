@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "result": {
+    "id": "turtken:compressed_sea_grass",
+    "count": 1
+  }
+}
