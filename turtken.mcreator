@@ -11,7 +11,7 @@
           "src/main/java/net/mcreator/turtken/client/renderer/TurtkenRenderer.java",
           "src/main/resources/data/turtken/neoforge/biome_modifier/turtken_biome_modifier.json",
           "src/main/java/net/mcreator/turtken/entity/TurtkenEntity.java",
-          "src/main/resources/assets/turtken/models/item/turtken_spawn_egg.json"
+          "src/main/resources/assets/turtken/items/turtken_spawn_egg.json"
         ]
       },
       "path": "~/Enities"
@@ -24,6 +24,7 @@
       "registry_name": "turtken_shell",
       "metadata": {
         "files": [
+          "src/main/resources/assets/turtken/items/turtken_shell.json",
           "src/main/java/net/mcreator/turtken/item/TurtkenShellItem.java",
           "src/main/resources/assets/turtken/models/item/turtken_shell.json"
         ]
@@ -49,7 +50,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/turtken/models/item/turtken_sword.json",
-          "src/main/java/net/mcreator/turtken/item/TurtkenSwordItem.java"
+          "src/main/java/net/mcreator/turtken/item/TurtkenSwordItem.java",
+          "src/main/resources/assets/turtken/items/turtken_sword.json"
         ]
       }
     },
@@ -62,7 +64,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/turtken/models/item/turtken_shell_chunk.json",
-          "src/main/java/net/mcreator/turtken/item/TurtkenShellChunkItem.java"
+          "src/main/java/net/mcreator/turtken/item/TurtkenShellChunkItem.java",
+          "src/main/resources/assets/turtken/items/turtken_shell_chunk.json"
         ]
       },
       "path": "~/Items"
@@ -102,6 +105,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/turtken/models/item/compressed_sea_grass.json",
+          "src/main/resources/assets/turtken/items/compressed_sea_grass.json",
           "src/main/java/net/mcreator/turtken/item/CompressedSeaGrassItem.java"
         ]
       },
@@ -118,6 +122,7 @@
           "src/main/java/net/mcreator/turtken/block/CompressedSeagrassBlockBlock.java",
           "src/main/resources/data/turtken/loot_table/blocks/compressed_seagrass_block.json",
           "src/main/resources/assets/turtken/models/item/compressed_seagrass_block.json",
+          "src/main/resources/assets/turtken/items/compressed_seagrass_block.json",
           "src/main/resources/assets/turtken/models/block/compressed_seagrass_block.json",
           "src/main/resources/assets/turtken/blockstates/compressed_seagrass_block.json"
         ]
@@ -173,7 +178,8 @@
       "item.turtken.turtken_shell_chunk": "Turtken Shell Chunk",
       "item.turtken.turtken_spawn_egg": "Turtken Spawn Egg",
       "block.turtken.compressed_seagrass_block": "Compressed Seagrass Block",
-      "item_group.turtken.turtkain": "Turtkain",
+      "item_group.turtken.turtkain": "Turtken",
+      "item.turtken.compressed_seagrass_block": "Compressed Seagrass Block",
       "entity.turtken.turtken": "Turtken",
       "item.turtken.turtken_sword": "Turtken Sword",
       "item.turtken.compressed_sea_grass": "Compressed Sea Grass",
@@ -204,17 +210,20 @@
   "workspaceSettings": {
     "modid": "turtken",
     "modName": "Turtken",
-    "version": "1.0.0",
-    "author": "jacob, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "1.2.0",
+    "description": "Enjoy Turtken",
+    "author": "Jacob0225, Bumstronaut",
+    "websiteURL": "https://modrinth.com/mod/turtken",
+    "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "turtken",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.21.1",
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Models by Bumstonaut",
     "modElementsPackage": "net.mcreator.turtken"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202500113416
 }

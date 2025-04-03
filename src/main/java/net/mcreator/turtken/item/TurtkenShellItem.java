@@ -11,8 +11,8 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 
 public class TurtkenShellItem extends Item {
-	public TurtkenShellItem() {
-		super(new Item.Properties().durability(40).fireResistant().rarity(Rarity.UNCOMMON)
+	public TurtkenShellItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.UNCOMMON).durability(40).fireResistant()
 				.attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 5, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
 						.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, -2.4, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()));
 	}

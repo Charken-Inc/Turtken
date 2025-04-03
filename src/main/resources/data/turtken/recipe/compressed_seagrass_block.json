@@ -7,12 +7,8 @@
     "aaa"
   ],
   "key": {
-    "a": {
-      "item": "turtken:compressed_sea_grass"
-    },
-    "b": {
-      "item": "minecraft:netherite_block"
-    }
+    "a": "turtken:compressed_sea_grass",
+    "b": "minecraft:netherite_block"
   },
   "result": {
     "id": "turtken:compressed_seagrass_block",

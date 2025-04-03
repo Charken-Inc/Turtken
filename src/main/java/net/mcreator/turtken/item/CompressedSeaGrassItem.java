@@ -5,7 +5,7 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 
 public class CompressedSeaGrassItem extends Item {
-	public CompressedSeaGrassItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+	public CompressedSeaGrassItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.COMMON).stacksTo(64));
 	}
 }

@@ -7,9 +7,7 @@
     "aaa"
   ],
   "key": {
-    "a": {
-      "item": "turtken:turtken_shell_chunk"
-    }
+    "a": "turtken:turtken_shell_chunk"
   },
   "result": {
     "id": "turtken:turtken_shell",
